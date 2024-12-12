@@ -1,0 +1,115 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+section {
+  margin: 20px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+}
+/* estilos para centrar y cambiar el color del título de la sección principal */
+#home h2 {
+  text-align: center;         
+  color: #00e676;             
+  font-size: 2em;             
+  margin-top: 20px;           
+}
+
+
+#home p {
+  text-align: center;         
+  color: #085719;                
+}
+
+.movie {
+  margin-bottom: 20px;
+}
+
+.error {
+  color: red;
+}
+/* Otros estilos existentes... */
+
+.movie img {
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Añadir transición suave */
+}
+
+.movie img:hover {
+  transform: scale(1.1); /
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+
+/* Estilos para centrar el formulario y los elementos uno debajo del otro */
+#form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#form form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 400px;
+}
+
+#form label, #form input, #form textarea, #form button {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+#form input, #form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#form button {
+  padding: 10px;
+  background-color: #052214; 
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#form button:hover {
+  background-color: #052214; 
+  background-color:  
+
+.error {
+  color: red;
+  margin-top: -10px; 
+  margin-bottom: 10px;
+}
+
+

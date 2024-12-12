@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Serie de Rick and Morty</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header id="header">
+    <nav>
+      <ul>
+        <li><a href="#home">Inicio</a></li>
+        <li><a href="#episodes">Episodios</a></li>
+        <li><a href="#api-section">API</a></li>
+        <li><a href="#form">Contacto</a></li>
+      </ul>
+    </nav>
+    <h1> <img src="https://via.placeholder.com/150" alt="Rick and Morty Logo" style="height:50px; vertical-align:middle;"> Serie de Rick and Morty</h1>
+  </header>
+
+  <!-- Sección Principal -->
+  <section id="home">
+    <h2>Bienvenidos a la Serie de Rick and Morty</h2>
+    <p>Tu fuente confiable para los mejores episodios de Rick and Morty.</p>
+  </section>
+
+  <!-- Sección de Episodios -->
+  <section id="episodes">
+    <h2>Lista de Episodios</h2>
+    <div id="api-data">
+      <!--  Datos de la API -->
+    </div>
+  </section>
+
+  <!-- Sección del Formulario -->
+  <section id="form">
+    <h2>Formulario de Contacto</h2>
+    <form id="contact-form">
+      <label for="name">Nombre:</label>
+      <input type="text" id="name" name="name" required>
+      <span class="error" id="name-error"></span>
+
+      <label for="email">Correo Electrónico:</label>
+      <input type="email" id="email" name="email" required>
+      <span class="error" id="email-error"></span>
+
+      <label for="message">Mensaje:</label>
+      <textarea id="message" name="message" required></textarea>
+      <span class="error" id="message-error"></span>
+
+      <button type="submit">Enviar</button>
+    </form>
+    <p id="form-feedback"></p>
+  </section>
+
+  <script src="app.js"></script>
+</body>
+</html>
